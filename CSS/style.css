@@ -1,3 +1,103 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
 
+.title {
+  text-align: center;
+  background-color: black;
+}
+
+.titulo--birras {
+  text-align: center;
+  color: white;
+}
+
+.titulo__deli {
+  text-align: center;
+  color: white;
+}
+
+.img-medios {
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.title_medios {
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: rgb(20, 20, 20);
+  font-family: "Montserrat", sans-serif;
+}
+body Footer .caja-uno {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+body Footer .caja-dos {
+  display: flex;
+  background-color: rgb(227, 230, 233);
+  text-align: center;
+  justify-content: center;
+}
+body Footer #facebook {
+  width: 20px;
+  height: 20px;
+}
+body Footer #instagram {
+  width: 20px;
+  height: 25px;
+}
+body Footer #whatsaap {
+  width: 20px;
+  height: 20px;
+}
+body Footer #spotify {
+  width: 20px;
+  height: 20px;
+}
+body Footer .icon {
+  display: flex;
+}
+body Footer #copy {
+  background-color: rgb(48, 108, 138);
+  color: black;
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+}
+
+/* MENU */
+.imagemenu {
+  display: flex;
+}
+
+.imagemenu {
+  width: 10px;
+  height: 700px;
+}
+
+.menu1 {
+  margin: 2px;
+}
+
+/* BIRRAS */
+.images--cards {
+  width: 100px;
+}
+
+@media (min-width: 768px) {
+  body header {
+    height: 200px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
