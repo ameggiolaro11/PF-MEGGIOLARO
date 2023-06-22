@@ -94,6 +94,18 @@ body Footer #copy {
   width: 100px;
 }
 
+/* HORARIOS */
+.title_dias {
+  text-align: left;
+  color: white;
+}
+
+.horarios_atencion {
+  text-align: left;
+  color: white;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
   body header {
     height: 150px;
