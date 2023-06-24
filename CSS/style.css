@@ -106,6 +106,13 @@ body Footer #copy {
   justify-content: center;
 }
 
+/* CAROUSEL INDEX */
+.text-colour {
+  color: white;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
 @media (min-width: 768px) {
   body header {
     height: 150px;
