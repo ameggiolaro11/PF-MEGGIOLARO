@@ -1,36 +1,50 @@
+$font-family: Arial, sans-serif;
+
+@mixin center-align {
+  text-align: center;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
+
 .title {
-  text-align: center;
+  @include center-align;
   background-color: black;
 }
+
 .titulo--birras {
-  text-align: center;
+  @include center-align;
   color: white;
 }
+
 .titulo__deli {
-  text-align: center;
+  @include center-align;
   color: white;
 }
 
 .img-medios {
-  align-items: center;
-  justify-content: center;
+  @include flex-center;
   margin-left: 100px;
 }
+
 .title_medios {
-  align-items: center;
-  justify-content: center;
+  @include flex-center;
 }
 
 body {
   background-color: rgb(20, 20, 20);
   font-family: $font-family;
 
-  Footer {
+  footer {
     .caja-uno {
       background-color: black;
       color: white;
@@ -41,30 +55,35 @@ body {
     }
 
     .caja-dos {
-      display: flex;
+      @include flex-center;
       background-color: rgb(227, 230, 233);
       text-align: center;
-      justify-content: center;
     }
+
     #facebook {
       width: 20px;
       height: 20px;
     }
+
     #instagram {
       width: 20px;
       height: 25px;
     }
+
     #whatsaap {
       width: 20px;
       height: 20px;
     }
+
     #spotify {
       width: 20px;
       height: 20px;
     }
+
     .icon {
       display: flex;
     }
+
     #copy {
       background-color: rgb(48, 108, 138);
       color: black;
@@ -84,6 +103,7 @@ body {
   width: 10px;
   height: 700px;
 }
+
 .menu1 {
   margin: 2px;
 }
@@ -102,7 +122,7 @@ body {
 .horarios_atencion {
   text-align: left;
   color: white;
-  justify-content: center;
+  @include flex-center;
 }
 
 /* CAROUSEL INDEX */
