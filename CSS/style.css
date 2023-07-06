@@ -113,11 +113,7 @@ body Footer #copy {
   margin-top: 10px;
 }
 
-@media (min-width: 768px) {
-  body header {
-    height: 150px;
-  }
-}
+
 @media (max-width: 600px) {
   .img-medios {
     max-width: 60%;
